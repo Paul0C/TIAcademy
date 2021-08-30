@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style type="text/css">
+    body {
+    	margin: 0;
+    }
+	header, footer{
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid #000;
+		background-color: tomato;
+		position: fixed;
+	}
+
+	header{
+		top: 0;
+	}
+
+	footer{
+		border-bottom: 0;
+		height: 60px;
+		border-top: 1px solid #000;
+		bottom: 0;
+		background-color: tomato;
+
+	}
+
+	main {
+		display: flex;
+		width: 100%;
+		height: 1350px;
+		background-color: cyan;
+		margin-top: 40px;
+	}
+
+	.coluna {
+		/*display: flex;*/
+		/*margin-left: 700px;*/
+		width: 50%;
+		/*margin-top: 0;*/
+		/*background-color: yellow;*/
+	}
+
+	#content {
+		width: 50%;
+		/*margin: 0 auto;*/
+		/*background-color: green;*/
+
+	}
+
+	#quadrado {
+		width: 20px;
+		height: 20px;
+		margin-top: 40px;
+		display: flex;
+		background-color: yellow;
+	}
+
+	@media screen and (max-width: 700px) {
+		main {
+			flex-direction: column;
+		}
+
+		#quadrado {
+			background-color: tomato;
+		}
+
+		
+	 	
+	 } 
+</style>
+<body>
+	<header></header>
+	<main>
+		<div id="content">
+			
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+        </div>
+        <div class="coluna">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae, atque error, dolorum sed quis, adipisci quidem ratione suscipit accusamus sapiente voluptatibus neque iste reprehenderit consequuntur quas consequatur sequi facere?</p>
+		    
+		</div>
+		 
+	</main>
+	<footer>
+		<div id="quadrado"></div>
+	</footer>
+</body>
+</html>

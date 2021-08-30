@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	border-bottom: 5px solid black;
+	background-color: #D50000;
+}
+
+main {
+	display: block;
+	/*text-align: center;*/
+	height: 1100px;
+	background-color: #ECEFF1;
+}
+
+footer {
+	background-color: #616161;
+	height: 90px;
+	display: flex;
+	/*text-align: center;*/
+	align-items: center;
+}
+
+img {
+	height: 100px;
+}
+
+nav {
+	display: flex;
+	text-align: center;
+}
+
+#h1-header {
+	display: flex;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+	/*background-color: white;*/
+	color: white;
+}
+
+#ul1 {
+	width: auto;
+	margin-left: 280px;
+	display: flex;
+	justify-content: center;
+	/*background-color: blue;*/
+
+}
+
+#l1 {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: green;*/
+	color: white;
+}
+
+#amenu {
+	color: white;
+	text-decoration: none;
+}
+
+#p-footer {
+	width: 500px;
+	display: flex;
+	margin: 0 auto;
+	color: white;
+	/*text-align: center;*/
+	justify-content: center;
+	/*align-items: center;*/
+    justify-items: center;
+}
+
+#link {
+	display: flex;
+	justify-content: center;
+	/*border-bottom: 1px solid black;*/
+}
+
+h1, h3 {
+	text-align: center;
+   }
+
+#h1main {
+	font-size: 70px;
+	border-bottom: 5px solid black;
+}
+h2 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#equipe {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 20px;
+	/*border-bottom: 5px solid black;*/
+}
+
+h4 {
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    header, main, footer {
+    	/*display: flex;*/
+
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+    	justify-items: center;
+    	/*background-color: black;*/
+    }
+}    
+
+
+

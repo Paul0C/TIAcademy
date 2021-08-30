@@ -1,0 +1,154 @@
+   * {
+   	margin: 0;
+   	padding: 0;
+   	box-sizing: border-box;
+
+   }
+
+	header {
+		width: 100%;
+		height: 50px;
+		background-color: black;
+	}
+
+	main {
+		width: 100%;
+		height: 500px;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		/*background-color: yellow;		*/
+	}
+
+	footer {
+		width: 100%;
+		height: 100px;
+		background-color: black;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+	}
+
+   h1 {
+   	width: 500px;
+   	height: 50px;
+	color: white;
+	font-size: 25px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: red;*/
+	}
+
+	h2 {
+		color: white;
+		display: flex;
+		/*text-align: center;*/
+		/*align-items: center;*/
+	}
+
+	#header{
+		width: 100%;
+		height: 50px;
+		display: flex;
+
+		
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-left: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	li{
+		width: 100px;
+		height: 30px;
+		margin-top: 10px;
+		font-family: Verdana, arial, sans-serif;
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+
+	form {
+		display: flex;
+		/*align-items: center;*/
+		/*background-color: green;*/
+		margin-right: 300px;
+		border-left: 2px dotted grey;
+        flex-direction: column;
+        justify-content: center;
+
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	#bordaredonda{
+		border: 1px solid orange;
+	    border-radius: 20px;
+	    background-color: orange;
+	}
+
+	#lorem {
+		display: flex;
+		margin: auto;
+		margin-top: 100px;
+		width: 80%;
+		height: 300px;
+		text-align: center;
+		justify-items: center;
+		/*background-color: red;*/
+	}
+
+	.borda {
+		margin: auto;
+		margin-right: 0;
+		width: 200px;
+		height: 150px;
+		display: flex;
+		text-align: center;
+		justify-items: center;
+		justify-content: center;
+		background-color: #EEEEEE;
+	}
+
+	#email {
+		width: 200px;
+		height: 30px;
+		margin-left: 5px;
+		/*margin-top: 10px;*/
+		border-radius: 6px;
+		opacity: 0.8;
+	}
+
+	.btn {
+		width: 50%;
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	#digite {
+		width: 200px;
+		height: 30px;
+		margin-left: 5px;
+		/*background-color: red;*/
+		display: flex;
+	}
+
+
+
+	

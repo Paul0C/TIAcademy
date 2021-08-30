@@ -1,0 +1,41 @@
+body {
+  margin: 100px;
+}
+
+main {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+
+  background-color: cyan;
+  display: flex;
+  padding: 0px;
+
+  /* align-items: center; */
+}
+
+.quadradoazul {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.circuloamarelo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-right: 4px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
